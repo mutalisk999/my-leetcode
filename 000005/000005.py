@@ -1,5 +1,5 @@
 class Solution:
-    def longestPalindrome(self, s: str) -> str:
+    def longestPalindrome(self, s: str) -> str:  # type: ignore
         sl = len(s)
         for i in range(sl):
             for j in range(0, i+1):
